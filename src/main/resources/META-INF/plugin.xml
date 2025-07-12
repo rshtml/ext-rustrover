@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.mehmetkesik.extrustrover</id>
-    <name>ext-rustrover</name>
+    <id>com.github.rshtml.extrustrover</id>
+    <name>rshtml</name>
     <vendor>mehmetkesik</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -9,7 +9,7 @@
     <resource-bundle>messages.MyBundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.mehmetkesik.extrustrover.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
-        <postStartupActivity implementation="com.github.mehmetkesik.extrustrover.startup.MyProjectActivity" />
+        <toolWindow factoryClass="com.github.rshtml.extrustrover.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <postStartupActivity implementation="com.github.rshtml.extrustrover.startup.MyProjectActivity" />
     </extensions>
 </idea-plugin>

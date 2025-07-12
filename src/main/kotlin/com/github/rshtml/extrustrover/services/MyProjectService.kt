@@ -1,9 +1,9 @@
-package com.github.mehmetkesik.extrustrover.services
+package com.github.rshtml.extrustrover.services
 
 import com.intellij.openapi.components.Service
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
-import com.github.mehmetkesik.extrustrover.MyBundle
+import com.github.rshtml.extrustrover.MyBundle
 
 @Service(Service.Level.PROJECT)
 class MyProjectService(project: Project) {

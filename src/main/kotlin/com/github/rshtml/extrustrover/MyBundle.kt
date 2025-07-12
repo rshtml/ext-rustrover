@@ -1,4 +1,4 @@
-package com.github.mehmetkesik.extrustrover
+package com.github.rshtml.extrustrover
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls

@@ -1,4 +1,4 @@
-package com.github.mehmetkesik.extrustrover.toolWindow
+package com.github.rshtml.extrustrover.toolWindow
 
 import com.intellij.openapi.components.service
 import com.intellij.openapi.diagnostic.thisLogger
@@ -8,8 +8,8 @@ import com.intellij.openapi.wm.ToolWindowFactory
 import com.intellij.ui.components.JBLabel
 import com.intellij.ui.components.JBPanel
 import com.intellij.ui.content.ContentFactory
-import com.github.mehmetkesik.extrustrover.MyBundle
-import com.github.mehmetkesik.extrustrover.services.MyProjectService
+import com.github.rshtml.extrustrover.MyBundle
+import com.github.rshtml.extrustrover.services.MyProjectService
 import javax.swing.JButton
 
 

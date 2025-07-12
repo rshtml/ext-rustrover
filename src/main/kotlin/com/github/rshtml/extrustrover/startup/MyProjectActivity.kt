@@ -1,4 +1,4 @@
-package com.github.mehmetkesik.extrustrover.startup
+package com.github.rshtml.extrustrover.startup
 
 import com.intellij.openapi.diagnostic.thisLogger
 import com.intellij.openapi.project.Project
